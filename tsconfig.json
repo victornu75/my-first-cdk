@@ -22,7 +22,8 @@
     "strictPropertyInitialization": false,
     "typeRoots": [
       "./node_modules/@types"
-    ]
+    ],
+    "outDir": "dist" //This line defines that when doing cdk build it will send everything to this folder to have it in one single place.
   },
   "exclude": [
     "node_modules",
